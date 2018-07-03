@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "HTTP://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="false" />
+		<setting name="useGeneratedKeys" value="true" />
+		<setting name="defaultExecutorType" value="REUSE" />
+	</settings>
+	
+ 	<typeAliases> 
+		
+		<typeAlias type="com.kt.ai.commerce.ai.vo.AiVo" 	alias="AiVo"/>
+		<typeAlias type="com.kt.ai.commerce.ai.vo.AiExVo" 	alias="AiExVo"/>
+		<typeAlias type="com.kt.ai.commerce.ai.vo.DicVo" 	alias="DicVo"/>
+		<typeAlias type="com.kt.ai.commerce.ai.vo.SessionVo" 	alias="SessionVo"/>
+		<typeAlias type="com.kt.ai.commerce.ai.vo.UserAiQaVo" 	alias="UserAiQaVo"/>
+		<typeAlias type="com.kt.ai.commerce.buy.vo.BuyVo" 	alias="BuyVo"/>
+		<typeAlias type="com.kt.ai.commerce.favorite.vo.FavoriteVo" 	alias="FavoriteVo"/>
+		<typeAlias type="com.kt.ai.commerce.login.vo.LoginVo" 	alias="LoginVo"/>
+		<typeAlias type="com.kt.ai.commerce.tvApp.vo.TVAppVo" 	alias="TVAppVo"/>
+		<typeAlias type="com.kt.ai.commerce.tvApp.vo.prodListVo" 	alias="prodListVo"/>
+		<typeAlias type="com.kt.ai.commerce.tvApp.vo.PushVo" 	alias="PushVo"/>
+		<typeAlias type="com.kt.ai.commerce.visual.vo.VisualVo" 	alias="VisualVo"/>
+		<typeAlias type="com.kt.ai.commerce.pantry.vo.PantryVo" 	alias="PantryVo"/>
+
+
+		<typeAlias type="com.kt.ai.web.visual.vo.WebVisualVo" 	alias="WebVisualVo"/>
+
+	</typeAliases>
+	
+</configuration>
